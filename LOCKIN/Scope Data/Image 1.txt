@@ -1,0 +1,31 @@
+-------------------------------
+          NOTES                                             
+-------------------------------
+Output of phase shift circuit. Blue is input signal, green is recovered input signal, yellow is 90 degree phase shift. 
+
+-------------------------------
+          CONFIGURATION                                     
+-------------------------------
+
+ANALOG
+Ch 1 Scale 5 V/, Pos 12.3125 V, Coup DC, BW Off, Inv Off, Imp 1M Ohm, Trace Label 1
+     Probe 10 : 1, Skew 0 s
+Ch 2 Scale 5 V/, Pos 1.625 V, Coup DC, BW Off, Inv Off, Imp 1M Ohm, Trace Label 2
+     Probe 10 : 1, Skew 0 s
+Ch 3 Scale 5 V/, Pos -10 V, Coup DC, BW Off, Inv Off, Imp 1M Ohm, Trace Label 3
+     Probe 10 : 1, Skew 0 s
+
+TRIGGER
+Sweep Mode Auto, Coup DC, Noise Rej Off, HF Rej Off, Holdoff 40.0 ns
+Mode EDGE, Source Ch 1, Slope POS, Level 925 mV
+
+HORIZONTAL
+Mode MAIN, Ref CENT, Main Scale 1 µs/, Main Delay -1.056 µs
+
+ACQUISITION
+Mode NORM, Realtime On, Vectors On, Persistence Off
+
+MEASUREMENTS
+Frequency(1) Cur 200050Hz, Mean 310.986313 kHz, Min 199.81 kHz, Max 466.9 kHz, Std Dev 104.189968 kHz, Count 51780
+Frequency(2) Cur 200020Hz, Mean 199.999714 kHz, Min 199.79 kHz, Max 200.19 kHz, Std Dev 42.733 Hz, Count 27118
+Frequency(3) Cur 200030Hz, Mean 199.999476 kHz, Min 199.87 kHz, Max 200.13 kHz, Std Dev 32.41 Hz, Count 3572

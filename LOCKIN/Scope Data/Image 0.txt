@@ -1,0 +1,29 @@
+-------------------------------
+          NOTES                                             
+-------------------------------
+This is the output from the PLL frequancy doubling circuit. The yellow trace and measurments are the ouput, the green trace and measurments are the input signal. 
+
+-------------------------------
+          CONFIGURATION                                     
+-------------------------------
+
+ANALOG
+Ch 1 Scale 2 V/, Pos 5.75 V, Coup DC, BW Off, Inv Off, Imp 1M Ohm, Trace Label 1
+     Probe 10 : 1, Skew 0 s
+Ch 2 Scale 2 V/, Pos -2.7 V, Coup DC, BW Off, Inv Off, Imp 1M Ohm, Trace Label 2
+     Probe 10 : 1, Skew 0 s
+
+TRIGGER
+Sweep Mode Auto, Coup DC, Noise Rej Off, HF Rej Off, Holdoff 40.0 ns
+Mode EDGE, Source Ch 1, Slope POS, Level 925 mV
+
+HORIZONTAL
+Mode MAIN, Ref CENT, Main Scale 1 µs/, Main Delay 0 s
+
+ACQUISITION
+Mode NORM, Realtime On, Vectors On, Persistence Off
+
+MEASUREMENTS
+Frequency(1) Cur 432600Hz, Mean 404.428069 kHz, Min 320.2 kHz, Max 466.9 kHz, Std Dev 29.875022 kHz, Count 28112
+Frequency(2) Cur 200030Hz, Mean 199.999661 kHz, Min 199.86 kHz, Max 200.13 kHz, Std Dev 30.684 Hz, Count 3452
+Counter(1) Cur 400000, Mean 399.999713 k, Min 399.998 k, Max 400.001 k, Std Dev 1.211 , Count 87
